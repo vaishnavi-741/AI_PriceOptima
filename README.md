@@ -21,26 +21,26 @@ Datasets required extensive data cleaning because they contain missing values, i
 
 Technologies Used :
 
-•	Backend: Python, FastAPI, Uvicorn, Pydantic
-•	Frontend: React.js, JavaScript, HTML/CSS
-•	ML & Data: pandas, numpy, scikit-learn, LightGBM, joblib
-•	Utilities & Dev: GitHub, npm, curl, virtual environments
+-	Backend: Python, FastAPI, Uvicorn, Pydantic
+-	Frontend: React.js, JavaScript, HTML/CSS
+-	ML & Data: pandas, numpy, scikit-learn, LightGBM, joblib
+-	Utilities & Dev: GitHub, npm, curl, virtual environments
 
 Model Development Summary
 
 Exploratory data insights highlighted metrics such as:
-•	Daily revenue behavior
-•	Demand elasticity with respect to price
-•	Stock levels influencing lost sales
-•	Weekend and seasonal effects
+-	Daily revenue behavior
+-	Demand elasticity with respect to price
+-	Stock levels influencing lost sales
+-	Weekend and seasonal effects
 
 Key feature engineering performed:
 
-•	Date transformations (day, week, month, weekend)
-•	Categorical encoding
-•	Rolling demand behavior
-•	Ratio features: stock vs predicted demand
-•	Competitor discount differentials
+-	Date transformations (day, week, month, weekend)
+-	Categorical encoding
+-	Rolling demand behavior
+-	Ratio features: stock vs predicted demand
+-	Competitor discount differentials
 
 Multiple machine learning models were evaluated, including XGBoost and LightGBM.
 The optimized model was serialized as priceoptima_lgb_model.joblib and deployed in the API.
@@ -70,17 +70,17 @@ Frontend Location: /dashboard/src/App.js
 
 Dashboard delivers:
 
-•	Input form for all required model variables
-•	Submit button mapped to /predict POST request
-•	Dynamic display of recommended price
-•	Basic fail-safe display for API/validation errors
+-	Input form for all required model variables
+-	Submit button mapped to /predict POST request
+-	Dynamic display of recommended price
+-	Basic fail-safe display for API/validation errors
 
 The UI is optimized for clarity so a business user can experiment interactively.
 Key Outputs & Results
-•	API responds with demand estimate and price suggestion
-•	Dashboard renders results instantly
-•	Internal project tests show meaningful pricing uplift patterns when simulated against historical data
-•	Early EDA showed improvement opportunities in pricing intervention windows
+-	API responds with demand estimate and price suggestion
+-	Dashboard renders results instantly
+-	Internal project tests show meaningful pricing uplift patterns when simulated against historical data
+-	Early EDA showed improvement opportunities in pricing intervention windows
 Real-World Usage Context
 
 Operations analysts can apply Price Optima daily:
