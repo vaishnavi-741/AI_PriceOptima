@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-Project Title
 
+Project Title
 PriceOptima – AI-Powered Dynamic Pricing System
 
 Project Objective
@@ -100,8 +99,3 @@ Milestone 6 — API deployment, React dashboard, README documentation
 Conclusion and Future Enhancements
 Price Optima completes an end-to-end AI pricing workflow:
 data preparation, feature generation, ML modeling, inference API, and interactive dashboard.
-________________________________________
-
-=======
-# AI_PriceOptima
->>>>>>> d62c476ac5d2d25c499713a12f977bbce763409f
