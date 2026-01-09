@@ -89,12 +89,12 @@ Operations analysts can apply Price Optima daily:
 3.	Adjust price strategies in e-commerce/POS systems
 
 Milestones
-Milestone 1 — Requirements, scoping, and dataset selection
-Milestone 2 — EDA, visualization, data distribution, cleaning
-Milestone 3 — Feature engineering, temporal variables, competitor logic
-Milestone 4 — Rule-based pricing baseline
-Milestone 5 — ML-based pricing and model selection
-Milestone 6 — API deployment, React dashboard, README documentation
+Milestone 1 - Requirements, scoping, and dataset selection
+Milestone 2 - EDA, visualization, data distribution, cleaning
+Milestone 3 - Feature engineering, temporal variables, competitor logic
+Milestone 4 - Rule-based pricing baseline
+Milestone 5 - ML-based pricing and model selection
+Milestone 6 - API deployment, React dashboard, README documentation
 
 Conclusion and Future Enhancements
 Price Optima completes an end-to-end AI pricing workflow:
