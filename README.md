@@ -12,11 +12,11 @@ Location: /dataset folder
 Primary datasets used include files such as master_dataset_cleaned.csv and internally engineered variations.
 
 Key columns observed in processing:
-•	Cost price, Selling price
-•	Units sold, Stock level
-•	Day, Week, Month
-•	Competitor price, Product category
-•	Weekend/Holiday indicators
+-	Cost price, Selling price
+-	Units sold, Stock level
+-	Day, Week, Month
+-	Competitor price, Product category
+-	Weekend/Holiday indicators
 Datasets required extensive data cleaning because they contain missing values, inconsistent date formats, inventory anomalies, and seasonality patterns typical of fast-moving consumer goods.
 
 Technologies Used :
