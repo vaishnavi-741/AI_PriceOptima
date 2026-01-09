@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Project Title
 
 PriceOptima – AI-Powered Dynamic Pricing System
@@ -101,3 +102,6 @@ Price Optima completes an end-to-end AI pricing workflow:
 data preparation, feature generation, ML modeling, inference API, and interactive dashboard.
 ________________________________________
 
+=======
+# AI_PriceOptima
+>>>>>>> d62c476ac5d2d25c499713a12f977bbce763409f
